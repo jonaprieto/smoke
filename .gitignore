@@ -8,3 +8,4 @@ out
 # Stack
 /.stack-work
 *.cabal
+dist-newstyle/
