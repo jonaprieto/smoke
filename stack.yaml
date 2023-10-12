@@ -1,8 +1,14 @@
-resolver: lts-20.12
+resolver: lts-20.15
 packages:
   - .
 ghc-options:
   $everything: -haddock
+
+# extra-include-dirs:
+# - /opt/homebrew/opt/icu4c/include
+# extra-lib-dirs:
+# - /opt/homebrew/opt/icu4c/lib
+
 nix:
   shell-file: ./shell.nix
 extra-deps:
